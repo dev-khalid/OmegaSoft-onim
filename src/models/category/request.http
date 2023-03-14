@@ -1,0 +1,39 @@
+### Create
+POST http://localhost:9001/categories 
+Content-Type: application/json
+
+ {
+        "name": "Fire"
+        
+ }
+       
+# productsId
+
+### Find All
+GET http://localhost:9001/categories
+
+### Find One
+GET http://localhost:9001/categories/1
+
+
+### Update
+PATCH  http://localhost:9001/categories/6
+Content-Type: application/json
+
+
+
+### Delete
+DELETE http://localhost:9001/categories/1
+
+
+
+
+CREATE TABLE `products` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
+  `price` varchar(10) DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `categoryId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4

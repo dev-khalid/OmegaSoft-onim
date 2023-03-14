@@ -1,0 +1,24 @@
+{
+    "id": 2,
+    "title": "Levi's Men's 511 Slim Fit Jeans",
+    "price": 69.5,
+    "description": "The Levi's 511 Slim Fit Jeans offer a modern and versatile slim fit that sits below the waist and is slim from the hip to the ankle.",
+    "category": "men's clothing",
+    "image": "levis-511-jeans.jpg"
+},
+{
+    "id": 3,
+    "title": "Apple AirPods Pro",
+    "price": 249.0,
+    "description": "The Apple AirPods Pro offer active noise cancellation, transparency mode, and a customizable fit for all-day comfort.",
+    "category": "electronics",
+    "image": "apple-airpods-pro.jpg"
+},
+{
+    "id": 4,
+    "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+    "price": 79.0,
+    "description": "The Instant Pot Duo 7-in-1 Electric Pressure Cooker is a versatile appliance that can be used as a pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and food warmer.",
+    "category": "home and kitchen",
+    "image": "instant-pot-duo.jpg"
+}

@@ -1,0 +1,35 @@
+### Create
+POST http://localhost:9001/products
+Content-Type: application/json
+
+ {
+        "title": "hoye geche papi ",
+        "price": 1000,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "categoryId": 1
+      
+ }
+       
+
+
+### Find All
+GET http://localhost:9001/products
+
+### Find One
+GET http://localhost:9001/products/2
+
+
+### Update
+PATCH  http://localhost:9001/products/3
+Content-Type: application/json
+
+{
+    "title": "okokok",
+    "price": 69.5,
+    "description": "The Levi's 511 Slim Fit Jeans offer a modern and versatile slim fit that sits below the waist and is slim from the hip to the ankle.",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+}
+
+### Delete
+DELETE http://localhost:9001/products/1
